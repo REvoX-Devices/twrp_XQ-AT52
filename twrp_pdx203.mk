@@ -9,14 +9,14 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common TWRP stuff.
+# Inherit some common Omni stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from XQ-AT52 device
-$(call inherit-product, device/sony/XQ-AT52/device.mk)
+$(call inherit-product, device/sony/pdx203/device.mk)
 
-PRODUCT_DEVICE := XQ-AT52
-PRODUCT_NAME := twrp_XQ-AT52
+PRODUCT_DEVICE := pdx203
+PRODUCT_NAME := twrp_pdx203
 PRODUCT_BRAND := Sony
 PRODUCT_MODEL := XQ-AT52
 PRODUCT_MANUFACTURER := sony

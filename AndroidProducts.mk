@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_XQ-AT52.mk
+    $(LOCAL_DIR)/twrp_pdx203.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_XQ-AT52-user \
-    twrp_XQ-AT52-userdebug \
-    twrp_XQ-AT52-eng
+    twrp_pdx203-user \
+    twrp_pdx203-userdebug \
+    twrp_pdx203-eng

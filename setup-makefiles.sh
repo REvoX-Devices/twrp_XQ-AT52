@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=XQ-AT52
+DEVICE=pdx203
 VENDOR=sony
 
 # Load extract_utils and do some sanity checks
